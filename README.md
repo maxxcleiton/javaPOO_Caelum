@@ -1,6 +1,6 @@
 # Hello everybody
-## My task in this repository is to "untangle" this Caelum's Handout:
-## https://www.caelum.com.br/apostila/apostila-java-orientacao-objetos.pdf
+## My task in this repository is to "untangle" this Caelum's Handout:<br>https://www.caelum.com.br/apostila/apostila-java-orientacao-objetos.pdf
+## What is this about? POO and Java logics.
 
 ## Notes (for me in the future):
 
