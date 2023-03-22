@@ -13,8 +13,26 @@ class JavaOperatorsAndVariables{
         maxAge = currentlyYear - birthdayYear;
 
         System.out.println("Max's age is " + maxAge);
+
+        // Double (float)
+
+        double pi = 3.14;
+
+        // Bool
+
+        boolean isTrue = true;
+        boolean isFalse = false;
+
+        boolean isMaxUnderBrazilAge = maxAge < 18;
+        System.out.println("Is Max's age under majority in Brazil?");
         
-        System.out.println("");
-        System.out.println("");
+        System.out.println("The answer is: " + isMaxUnderBrazilAge);
+
+        // Char
+
+        char letter = 'a';
+        System.out.println(letter);
+
+        
     }
 }
