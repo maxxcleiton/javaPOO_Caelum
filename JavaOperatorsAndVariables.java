@@ -59,7 +59,24 @@ class JavaOperatorsAndVariables{
             // Impressão:
         System.out.println("Quarter year total cost: "
         + quarterYearCost);
-        System.out.println("Month's cost median: "
+        System.out.println("Median Monthly's cost: "
         + monthlyCostAverage);
+
+            // Obrigando loop a executar o próximo passo:
+        // for (int i = 0; i < 100; i++) {
+        //     if (i > 50 && i	< 60) {
+        //         System.out.println("It won't run here, from 51 to 59");
+        //         continue;
+        //     }
+        //     System.out.println(i);
+        // }
+
+            // Brecando um loop num ponto específico:
+
+        for (int i = 0; i < 30; i++) {
+            if (i % 19 == 0) {
+                System.out.println("Achei um numero divisivel por 19, entre os numeros 0 e 30 = (19)");
+            }
+        }
     }
 }
