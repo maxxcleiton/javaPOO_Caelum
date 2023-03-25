@@ -78,5 +78,38 @@ class JavaOperatorsAndVariables{
                 System.out.println("Achei um numero divisivel por 19, entre os numeros 0 e 30 = (19)");
             }
         }
+
+            // Casting:
+
+        // O que não funciona:
+        double d = 3.1415;
+        // int i = d; // <- cannot convert from double to int
+
+        // int x = 3.14; // <- cannot convert from double to int
+
+        // double b = 5; // <- double can contain an integer number
+        
+        // int v = d; // <- cannot convert from double to int
+
+        
+        // O que funciona:
+        int p = 5;
+        double p2 = p; // <- double can contain an integer number
+        
+        // Casting -> moldado (casted) - Ex.1
+        System.out.println("-------");
+        System.out.println("Casting");
+        System.out.println("-------");
+        
+        double d2 = 3.14;
+        System.out.println("double d2 is: "
+        + d2);
+
+        int i2 = (int) d2; 
+        System.out.println("After casting to in, the value of i2 from now is 3: "
+        + i2);
+        System.out.println("Casting rounds the floated number, and makes it an integer");
+
+
     }
 }
