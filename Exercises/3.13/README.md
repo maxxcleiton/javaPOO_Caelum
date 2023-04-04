@@ -53,6 +53,7 @@ Mude de int para long a fim de ver alguma mudança.
    Imprime x ;
 
 
+
 O programa deve parar quando x tiver o valor final de 1. Por exemplo, para  x = 13 , a saída será:
 40 -> 20 -> 10 -> 5 -> 16 -> 8 -> 4 -> 2 -> 1
 IMPRIMINDO SEM PULAR LINHA
