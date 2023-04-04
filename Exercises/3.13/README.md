@@ -7,7 +7,7 @@ Apesar de extremamente simples, precisamos praticar a sintaxe que estamos aprend
 ```
 class ExercicioX {
     public static void main(String[] args) {
-		//	seu	exercício vai aqui
+		// seu exercício vai aqui
 	}
 }
 
