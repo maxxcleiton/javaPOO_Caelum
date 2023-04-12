@@ -14,24 +14,23 @@ class Conta  {
     String agency;
     String openAccountDate;
     double balance;
-    int number;
+    double number;
 	
     void withdraw() {
         System.out.println("To withdraw money");
-        balance = balance - number;
+        balance -= number;
 
     };
     
     void deposit() {
         System.out.println("To deposit money");
-        balance =  balance + number;
+        balance += number;
     };
     
-    int calculaRendimento() {
+    double calculaRendimento() {
         System.out.println("To return your monthly earnings");
         balance = balance * 0.1;
-        int balance2 = (int) balance;
-        return balance2;
+        return balance;
     };
     
 };
@@ -47,7 +46,7 @@ class TestaConta {
 
         // To deposit money
     minhaConta.deposit();
-    
+
         // To return your monthly earnings
     minhaConta.calculaRendimento();
 
