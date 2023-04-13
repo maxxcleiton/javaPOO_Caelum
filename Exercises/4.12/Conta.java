@@ -9,28 +9,28 @@ O que fazer:
 Transformar o modelo acima em uma classe java.
 */
 
-class Conta  {
+class Conta {
     String titularName;
     String agency;
     String openAccountDate;
     double balance;
     double number;
-	
+
     void withdraw() {
         System.out.println("To withdraw money");
         balance -= number;
 
     };
-    
+
     void deposit() {
         System.out.println("To deposit money");
         balance += number;
     };
-    
+
     double calculaRendimento() {
         System.out.println("To return your monthly earnings");
-        balance = balance * 0.1;
+        balance *= 0.1;
         return balance;
     };
-    
+
 };
