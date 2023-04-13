@@ -12,5 +12,7 @@ class TestaConta {
         // To return your monthly earnings
         minhaConta.calculaRendimento();
 
+        minhaConta.GetBalance();
+
     };
 };

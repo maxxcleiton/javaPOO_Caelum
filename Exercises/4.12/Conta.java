@@ -9,7 +9,7 @@ O que fazer:
 Transformar o modelo acima em uma classe java.
 */
 
-class Conta {
+public class Conta {
     String titularName;
     String agency;
     String openAccountDate;
@@ -29,8 +29,13 @@ class Conta {
 
     double calculaRendimento() {
         System.out.println("To return your monthly earnings");
-        balance *= 0.1;
-        return balance;
+        balance = 2;
+        return balance *= 0.1;
+
     };
 
+    double GetBalance() {
+        System.out.println("getbalance: " + balance);
+        return balance;
+    }
 };
