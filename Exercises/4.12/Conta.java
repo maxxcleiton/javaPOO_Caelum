@@ -9,10 +9,10 @@ O que fazer:
 Transformar o modelo acima em uma classe java.
 */
 
-public class Conta {
+class Conta {
     String titularName;
     String agency;
-    String openAccountDate;
+    Data openAccountDate;
     double balance;
     double number;
 
@@ -42,3 +42,9 @@ public class Conta {
         return "Informaçoes da conta";
     }
 };
+
+class Data {
+    int dia;
+    int mês;
+    int ano;
+}
