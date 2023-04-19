@@ -27,15 +27,18 @@ public class Conta {
         balance += number;
     };
 
-    double calculaRendimento() {
+    double calculateYield() {
         System.out.println("To return your monthly earnings");
         balance = 2;
         return balance *= 0.1;
-
     };
 
     double GetBalance() {
         System.out.println("getbalance: " + balance);
         return balance;
+    };
+
+    String recuperaDadosParaImpressao() {
+        return "Informaçoes da conta";
     }
 };

@@ -10,9 +10,8 @@ class TestaConta {
         minhaConta.deposit();
 
         // To return your monthly earnings
-        minhaConta.calculaRendimento();
+        minhaConta.calculateYield();
 
-        minhaConta.GetBalance();
-
+        
     };
 };
